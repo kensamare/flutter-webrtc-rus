@@ -114,7 +114,7 @@ typedef void (^NavigatorUserMediaSuccessCallback)(RTCMediaStream* mediaStream);
   audioTrack.settings = @{
     @"deviceId" : audioDeviceId,
     @"kind" : @"audioinput",
-    @"autoGainControl" : @YES,
+    @"autoGainControl" : @NO,
     @"echoCancellation" : @YES,
     @"noiseSuppression" : @YES,
     @"channelCount" : @1,

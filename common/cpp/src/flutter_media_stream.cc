@@ -169,7 +169,7 @@ void FlutterMediaStream::GetUserAudio(const EncodableMap& constraints,
     EncodableMap settings;
     settings[EncodableValue("deviceId")] = EncodableValue(sourceId);
     settings[EncodableValue("kind")] = EncodableValue("audioinput");
-    settings[EncodableValue("autoGainControl")] = EncodableValue(true);
+    settings[EncodableValue("autoGainControl")] = EncodableValue(false);
     settings[EncodableValue("echoCancellation")] = EncodableValue(true);
     settings[EncodableValue("noiseSuppression")] = EncodableValue(true);
     settings[EncodableValue("channelCount")] = EncodableValue(1);

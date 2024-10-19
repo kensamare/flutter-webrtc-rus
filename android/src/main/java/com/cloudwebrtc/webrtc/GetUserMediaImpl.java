@@ -402,7 +402,7 @@ class GetUserMediaImpl {
         ConstraintsMap settings = new ConstraintsMap();
         settings.putString("deviceId", deviceId);
         settings.putString("kind", "audioinput");
-        settings.putBoolean("autoGainControl", true);
+        settings.putBoolean("autoGainControl", false);
         settings.putBoolean("echoCancellation", true);
         settings.putBoolean("noiseSuppression", true);
         settings.putInt("channelCount", 1);
